@@ -36,7 +36,6 @@ function createLinkedList() {
       current = current.next;
     }
     current.next = newNode;
-    current = newNode;
     return head;
   }
   function getSize() {
