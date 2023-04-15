@@ -28,6 +28,7 @@ console.log(binarySearch(numberList, 6, left, right)); // -1
 console.log(binarySearch(numberList, 5, left, right)); // 5
 console.log(binarySearch(numberList, 2, left, right)); // 2
 console.log(binarySearch(numberList, 3, left, right)); // 3
+
 // non-recursion
 function binarySearchV1(numberList, target) {
   if (!Array.isArray(numberList) || numberList.length === 0) return -1;
